@@ -1,0 +1,162 @@
+*{
+    margin: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+nav{
+    display: flex;
+    align-items: center;
+    padding: 0px 100px;
+}
+nav svg{
+    position: absolute;
+    left: 90%;
+}
+.main-container{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+.main-container > img{
+    margin-top: 20px;
+}
+.main-content{
+    display: block;
+    max-width: 600px;
+    margin-left: -200px;
+
+
+}
+.main-content #discount{
+    width: 190px;
+    background-color: green;
+    color: white;
+    cursor: pointer;
+    padding: 5px 10px;
+} 
+.main-content h1{
+    font-size: 40px;
+    font-weight: 100;
+}
+.main-content button{
+    background-color: rgb(255, 208, 0);
+    margin-top: 5px;
+    padding: 10px 30px;
+    color: rgba(255, 255, 255, 0.968);
+    border: none;
+    cursor: pointer;
+    font-size: larger;
+}
+.cards{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 50px;
+}
+.card1{
+    display: flex;
+    /* border: 2px solid black; */
+    width: 300px;
+    padding-top: 20px;
+}
+.card1 img{
+    margin-right: 19px;
+    height: 80px;
+    width: 80px;
+}
+.cards span{
+    /* margin-top: 15px; */
+}
+.menu button{
+    background-color: green;
+    margin-top: 5px;
+    padding: 10px 30px;
+    color: rgba(255, 255, 255, 0.968);
+    border: none;
+    cursor: pointer;
+    font-size: larger;
+    display: block;
+    position: relative;
+    left: 45%;
+    margin-top: 40px;   
+}
+.menu h1{
+    text-align: center;
+    margin-top: 15px;
+    margin-left: 15px;
+}
+.grid-image {
+    border-radius: 10px;
+    transition: 0.2s ease-in-out;
+    width: 100%;
+    height: 100%;
+  }
+  .grid-image:hover {
+    transform: scale(1.05);
+    transition: 0.2s ease-in-out;
+  }
+  .grid {
+    width: 80%;
+    height: 80%;
+    margin-left: 10%;
+    display: grid;
+    gap: 10px;
+    grid-template-areas:
+      "I1 I1 I2 I3"
+      "I1 I1 I2 I7"
+      "I4 I5 I6 I7";
+  }
+  
+  .item1 {
+    grid-area: I1;
+  }
+  .item2 {
+    grid-area: I2;
+  }
+  .item3 {
+    grid-area: I3;
+  }
+  .item4 {
+    grid-area: I4;
+  }
+  .item5 {
+    grid-area: I5;
+  }
+  .item6 {
+    grid-area: I6;
+  }
+  .item7 {
+    grid-area: I7;
+  }
+  .footer{
+    background-color: #fff0db;
+    height: 200px;
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-evenly;
+  }
+  .footer .two a{
+    text-decoration: none;
+    color: black;
+  }
+  .footer .three a{
+    text-decoration: none;
+    color: black;
+  }
+  .footer .two > p, .footer .three > p{
+    line-height: 15px;
+  }
+  .footer .two, .footer .three, .footer .four{
+    margin-top: 10px;
+  }
+  .footer .four input{
+    width: 300px;
+    font-size: 13px;
+  }
+  .footer .four h5{
+    margin-top: 10px;
+  }
+  .footer .four svg{
+    margin: 0px 5px;
+  }
+
+  
